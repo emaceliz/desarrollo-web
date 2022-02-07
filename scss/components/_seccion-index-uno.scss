@@ -1,0 +1,21 @@
+@import '../base/variables';
+
+body {
+    background-color: $bg-color-body;
+}
+.trendy-section-screen {
+    display: flex;
+}
+.carousel-img {
+    width: 100%;
+}
+.section-title {
+    text-align: center;
+    margin: 2% 2%;
+    font-family: $font-family;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+}
+.span-eme {
+    color: $color-name-title;
+}

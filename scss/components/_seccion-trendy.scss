@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+    gap: 0px;
+}
+.grid-item {
+    display: grid;
+    gap: 0px;
+}
+.img-trendy {
+    width: 100%;
+}

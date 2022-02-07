@@ -1,0 +1,45 @@
+.logo-footer {
+    width: 10rem;
+    display: flex;
+}
+.footer {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.titulo-footer-uno, .titulo-footer {
+    font-size: 30px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.contacto-whatsapp {
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+.contact-text {
+    text-align: center;
+    display: flex;
+}
+.style {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-contact {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 481px) {
+    .logo-footer, .titulo-footer-uno, .mapa {
+        display: none;
+    }
+    .style {
+       align-items: center;
+    }
+    .redes-sociales, .footer-text {
+        align-items: center;
+        }
+}

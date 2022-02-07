@@ -1,0 +1,14 @@
+@import '../base/variables';
+
+.banner-como-comprar {
+    display: flex;
+}
+.comprar-1 {
+    width: 100%;
+}
+.menu-comprar {
+    font-family: $font-family;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 2.5%;
+}

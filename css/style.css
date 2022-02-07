@@ -1,0 +1,202 @@
+/* Reset */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* header */
+header nav ul li {
+  display: inline-flex;
+  margin-right: 2, 5rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #050505;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+@media screen and (max-widht: 481px) {
+  header nav ul li a {
+    font-size: 1rem;
+  }
+}
+
+.logotipo {
+  width: 7rem;
+  display: flex;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+/* fin header */
+/* Footer */
+.logo-footer {
+  width: 10rem;
+  display: flex;
+}
+
+.footer {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+
+.titulo-footer-uno, .titulo-footer {
+  font-size: 30px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.contacto-whatsapp {
+  text-align: left;
+  display: flex;
+  justify-content: left;
+}
+
+.contact-text {
+  text-align: center;
+  display: flex;
+}
+
+.style {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 481px) {
+  .logo-footer, .titulo-footer-uno, .mapa {
+    display: none;
+  }
+
+  .style {
+    align-items: center;
+  }
+
+  .redes-sociales, .footer-text {
+    align-items: center;
+  }
+}
+/* Fin Footer */
+/* Seccion uno index */
+body {
+  background-color: #edb7f3;
+}
+
+.trendy-section-screen {
+  display: flex;
+}
+
+.carousel-img {
+  width: 100%;
+}
+
+.section-title {
+  text-align: center;
+  margin: 2% 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+}
+
+.span-eme {
+  color: #e22bd9;
+}
+
+/* Fin seccion uno index */
+/* Seccion dos index */
+.image {
+  overflow: hidden;
+  width: 400px;
+  height: 600px;
+  border-radius: 10%;
+  transition: all 2s ease;
+}
+
+.section-links {
+  text-align: center;
+  margin-bottom: 5.5%;
+}
+
+.img {
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+}
+
+/* aca van las animaciones */
+.animation {
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+.animation:hover .image {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 481px) {
+  .image {
+    max-width: 280px;
+    max-height: 400px;
+  }
+
+  .img {
+    font-size: 1.2rem;
+  }
+}
+/* Fin seccion dos */
+/* Seccion como comprar */
+.banner-como-comprar {
+  display: flex;
+}
+
+.comprar-1 {
+  width: 100%;
+}
+
+.menu-comprar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 2.5%;
+}
+
+/* fin seccion como comprar */
+/* Seccion Trendy */
+.grid-container {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 100%;
+  gap: 0px;
+}
+
+.grid-item {
+  display: grid;
+  gap: 0px;
+}
+
+.img-trendy {
+  width: 100%;
+}
+
+/* Fin seccion Trendy */
+/* Variables */
+/* Fin variables */
+.image {
+  overflow: hidden;
+  width: 400px;
+  height: 600px;
+  border-radius: 10%;
+  transition: all 2s ease;
+}
+
+/*# sourceMappingURL=style.css.map */

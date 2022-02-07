@@ -1,0 +1,27 @@
+/* Reset */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* header */
+@import './components/header';
+/* fin header */
+/* Footer */
+@import './components/footer';
+/* Fin Footer */
+/* Seccion uno index */
+@import './components/seccion-index-uno';
+/* Fin seccion uno index */
+/* Seccion dos index */
+@import './components/seccion-index-dos';
+/* Fin seccion dos */
+/* Seccion como comprar */
+@import './components/seccion-como-comprar';
+/* fin seccion como comprar */
+/* Seccion Trendy */
+@import './components/seccion-trendy';
+/* Fin seccion Trendy */
+/* Variables */
+@import './base/variables';
+/* Fin variables */
+@import './base/extends';

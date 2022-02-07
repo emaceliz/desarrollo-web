@@ -1,0 +1,26 @@
+header {
+    nav {
+        ul {
+            li {
+                display: inline-flex;
+                margin-right: 2,5rem;
+                a {
+                    text-decoration: none;
+                    color: rgb(5, 5,5);
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    @media screen and (max-widht: 481px) {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+.logotipo {
+    width: 7rem;
+    display: flex;
+}
+#navbarNav {
+    justify-content: flex-end;
+}
